@@ -1,0 +1,27 @@
+.slides-wrapper {
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.slider-item {
+  margin: 0 16px -4px 0;
+  min-height: 150px;
+}
+
+.slider-item img {
+  width: 100%;
+}
+
+.slider-arrows {
+  display: flex;
+  justify-content: space-between;
+}
